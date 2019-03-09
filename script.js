@@ -3,6 +3,7 @@ Code by: Kallas Mazura
 
 */
 let API_URI = "https://api.iextrading.com/1.0";
+let UPDATE_INTERVAL = 5 * 1000;
 
 let app = new Vue({
   el: "#app",
@@ -37,3 +38,7 @@ let app = new Vue({
     }
   }
 });
+
+setInterval(() => {
+  app.getStockData();
+}, UPDATE_INTERVAL);
