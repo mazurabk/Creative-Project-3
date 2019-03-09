@@ -1,0 +1,28 @@
+/*
+Kallas Mazura
+*/
+
+h1 {
+  text-align: center;
+}
+
+.jumbotron {
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.jumbotron p {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+footer {
+  background-color: #78c5dd;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+footer a {
+  color: #ffffff;
+}
